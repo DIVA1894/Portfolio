@@ -12,11 +12,10 @@ const About = () => {
           <h1 className='AboutTextHeading'>Get to <b>know</b> me!</h1>
           <p>
             Hi, my name is <b>Divakar Arunagiri</b>, and I am from Tamil Nadu, India.
-            I'm a <b>pre-final year student</b> at <b>Kongu Engineering College</b>, pursuing <b>B.Tech in Computer Science and Engineering</b>. <br /><br />
+            I'm a <b>pre-final year student</b> at <b>Kongu Engineering College</b>, pursuing <b>B.E in Computer Science and Engineering</b>. <br /><br />
             I have a strong passion for <b>database management</b> and <b>problem-solving</b> on competitive platforms. 
             My hobbies include playing <b>badminton</b> and <b>chess</b>, and I enjoy listening to music in my free time. <br /><br />
             I am always eager to explore new technologies and work on exciting projects. 
-            Feel free to connect with me, the links are in the footer. <br />
             Apart from coding, I love learning about new advancements in tech and continuously improving my skills.
           </p>
         </div>
