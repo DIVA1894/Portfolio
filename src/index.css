@@ -402,45 +402,61 @@ b{
   margin: 25px 5%;
 }
 
-.projectBox{
+.projectBox {
   width: 350px;
   border: 3px solid #431f47;
-  border-radius: 5px;
+  border-radius: 10px;
   text-align: center;
   padding: 15px;
   letter-spacing: 0.5px;
   font-size: 18px;
   line-height: 22px;
-  
   margin: 0px 25px 50px 25px;
-  transition: 0.5s;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  overflow: hidden;
 }
-.projectBox:hover{
+
+.projectBox:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 10px 0 #431f47;
+  box-shadow: 0 6px 15px rgba(67, 31, 71, 0.3);
 }
 
-.projectPhoto{
-  display: block;
+.projectPhoto {
   width: 100%;
-  margin: 20px 0px;
+  height: 200px; /* Adjust as needed */
+  object-fit: cover; /* Ensures image fits within the container */
+  border-radius: 5px;
 }
 
-.projectbtn{
-  font-size: 20px;
+.projectbtn {
+  font-size: 18px;
   display: inline-flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 40%;
-  margin: 25px 3% 0;
-  border-radius: 5px;
-  background-color: #431f47;
-  color: #E7E7E7;
-  height: 30px;
-  cursor:pointer;
+  justify-content: center;
+  width: 45%;
+  padding: 10px 15px;
+  margin: 25px 5%;
+  border-radius: 8px;
+  background: #431f47;
+  color: #ffffff;
+  font-weight: bold;
+  border: 2px solid transparent;
+  cursor: pointer;
   text-decoration: none;
-  border-style: none;
+  transition: background 0.3s ease, transform 0.3s ease, border 0.3s ease;
 }
+
+.projectbtn:hover {
+  background: transparent;
+  border: 2px solid #431f47;
+  color: #431f47;
+  transform: scale(1.1);
+}
+
+.projectbtn svg {
+  margin-right: 8px;
+}
+
 
 
 /* Resume */
