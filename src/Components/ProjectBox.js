@@ -13,7 +13,7 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
     
 
     DoctorAppDesc: "An online doctor appointment system allowing patients to book consultations, receive prescriptions, and manage health records. Includes an admin panel for doctors.",
-    DoctorAppGithub: "https://github.com/ElankumaranR/Doctor_Appointment",
+    DoctorAppGithub: "https://github.com/yourgithub/doctor-appointment",
     
   };
 

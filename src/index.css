@@ -428,35 +428,36 @@ b{
   border-radius: 5px;
 }
 
+.projectbtn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
 .projectbtn {
   font-size: 18px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 45%;
-  padding: 10px 15px;
-  margin: 25px 5%;
+  flex: 1; /* Makes both buttons equal in width */
+  padding: 12px 0;
+  margin: 0 5px; /* Adds small spacing between buttons */
   border-radius: 8px;
   background: #431f47;
   color: #ffffff;
   font-weight: bold;
-  border: 2px solid transparent;
+  text-align: center;
+  border: none;
   cursor: pointer;
   text-decoration: none;
-  transition: background 0.3s ease, transform 0.3s ease, border 0.3s ease;
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 
 .projectbtn:hover {
-  background: transparent;
-  border: 2px solid #431f47;
-  color: #431f47;
-  transform: scale(1.1);
+  background: #682b6b; /* Darker shade on hover */
+  transform: scale(1.05);
 }
 
 .projectbtn svg {
   margin-right: 8px;
 }
-
 
 
 /* Resume */
