@@ -16,10 +16,10 @@ const Home = () => {
           <Typed />
           {/* Social Media Icons */}
           <div className="socialIcons">
-            <a href="https://github.com/DevanshSahni" target='_blank'><FaGithub /></a>
-            <a href="https://www.linkedin.com/in/devansh-sahni/" target='_blank'><FaLinkedin /></a>
-            <a href='mailTo:devanshsahni@gmail.com' target='_blank'><GrMail /></a>
-            <a href="https://leetcode.com/sahni1403/" target="_blank"><SiLeetcode /></a>
+            <a href="hhttps://github.com/DIVA1894" target='_blank'><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/divakar-a-a4256b259/" target='_blank'><FaLinkedin /></a>
+            <a href='mailTo:diva180904@gmail.com' target='_blank'><GrMail /></a>
+            <a href="https://leetcode.com/u/22CSR051_diva/" target="_blank"><SiLeetcode /></a>
           </div>
         </div>
         
